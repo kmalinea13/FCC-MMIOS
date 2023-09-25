@@ -1,0 +1,107 @@
+body {
+    min-width: 290px;
+    
+}
+
+nav header {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: purple;
+    border-bottom: solid;
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+section article {
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+section li {
+    margin: 15px 0px 20px;
+}
+
+header {
+    display: inline;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+main {
+    font-family: monospace;
+    font-size: 2rem;
+    padding-left: 20px;
+    display: block;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    border-right: solid;
+    background-color: lavender;
+}
+
+#navbar ul {
+    height: 80%;
+    padding: 10px;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 1.1rem; 
+}
+
+#navbar li {
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+.nav-link a:visited {
+    color: grey; 
+}
+
+.nav-link:hover {
+    color: purple;
+}
+
+
+header {
+    color: black;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    display: inline-block;
+    height: 30px;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: 270px;
+    }
+}
+
